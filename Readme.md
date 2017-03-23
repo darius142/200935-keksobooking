@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг» [![Build status][travis-image]][travis-url]
 
 * Студент: [Gilyana Saran](https://up.htmlacademy.ru/javascript/9/user/200935).
-* Наставник: `Неизвестно`.
+* Наставник: `Без наставника`.
 
 ---
 
