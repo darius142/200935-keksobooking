@@ -31,25 +31,25 @@ var featuresArr = ['wifi', 'dishwasher', 'parking', 'washer', 'elevator', 'condi
 var pinArr = [];
 for (var i = 0; i < 8; i++) {
   var apartObj = {
-    "author": {
-      "avatar": ''
+    'author': {
+      'avatar': ''
     },
-    "offer": {
-      "title": '',
-      "address": '',
-      "price": '',
-      "type": '',
-      "rooms": '',
-      "guests": '',
-      "checkin": '',
-      "checkout": '',
-      "features": '',
-      "description": '',
-      "photos": ''
+    'offer': {
+      'title': '',
+      'address': '',
+      'price': '',
+      'type': '',
+      'rooms': '',
+      'guests': '',
+      'checkin': '',
+      'checkout': '',
+      'features': '',
+      'description': '',
+      'photos': ''
     },
-    "location": {
-      "x": '',
-      "y": ''
+    'location': {
+      'x': '',
+      'y': ''
     }
   };
   apartObj.author.avatar = 'img/avatars/user0' + makeRandomAvatar() + '.png';
@@ -84,7 +84,7 @@ imgElement.height = '40';
 
 // 3
 var fragment = document.createDocumentFragment();
-var firstTokyo = document.querySelector(".tokyo__pin-map");
+var firstTokyo = document.querySelector('.tokyo__pin-map');
 
 fragment.appendChild(pinElement);
 firstTokyo.appendChild(fragment);
