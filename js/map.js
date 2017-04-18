@@ -78,7 +78,6 @@ pinElement.style.top = apartObj.location.y;
 pinElement.insertAdjacentHTML('afterbegin', '<img>');
 var imgElement = pinElement.getElementsByTagName('img')[0];
 imgElement.className = 'rounded';
-
 imgElement.src = apartObj.author.avatar;
 imgElement.width = '40';
 imgElement.height = '40';
