@@ -68,7 +68,6 @@ for (var i = 0; i < 8; i++) {
   pinArr.push(apartObj);
 }
 
-
 // 2
 var tokyoPinMap = document.querySelector('.tokyo__pin-map');
 var pinElement = document.createElement('div');
@@ -101,8 +100,8 @@ hotelElement.querySelector('.lodge__address').textContent = pinArr[0].offer.addr
 hotelElement.querySelector('.lodge__price').textContent = pinArr[0].offer.address + '&#x20bd;/ночь';
 var offerTypeEl = pinArr[0].offer.type;
 if (offerTypeEl === 'flat') {
-  hotelElement.querySelector('.lodge__type').textContent = 'Квартира'
-};
+  hotelElement.querySelector('.lodge__type').textContent = 'Квартира';
+}
 if (offerTypeEl === 'bungalo') {
   hotelElement.querySelector('.lodge__type').textContent = 'Бунгало';
 }
