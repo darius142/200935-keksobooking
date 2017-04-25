@@ -8,11 +8,13 @@
 <body>
 <header class="header">
   <h1 class="header__logo">KEKSOBOOKING</h1>
+
   <h2 class="header__motto">Кексы по соседству</h2>
 </header>
 <main>
   <section class="tokyo">
     <img src="img/main.png" alt="Tokyo" width="1200" height="700">
+
     <div class="tokyo__filters-container">
       <form action="#" class="tokyo__filters" autocomplete="off">
         <label><select name="housing_type" id="housing_type" class="tokyo__filter">
@@ -66,19 +68,25 @@
       </form>
     </div>
     <div class="tokyo__pin-map">
-      <div class="pin  pin__main"><img src="img/main-pin-image.png" alt="Main Pin" class="rounded" width="40" height="44"></div>
+      <div class="pin  pin__main" tabindex="0"><img src="img/main-pin-image.png" alt="Main Pin" class="rounded"
+                                                    width="40" height="44"></div>
     </div>
     <div id="offer-dialog" class="dialog">
       <div class="dialog__title"><img src="img/avatars/user01.png" alt="Avatar" width="70" height="70">
-        <a href="#" class="dialog__close"><img src="img/close.svg" alt="close" width="22" height="22"></a>
+        <a href="#" class="dialog__close" tabindex="0"><img src="img/close.svg" alt="close" width="22" height="22"></a>
       </div>
       <div class="dialog__panel">
         <h3 class="lodge__title">Уютное гнездышко для молодоженов</h3>
+
         <p class="lodge__address">102-0082 Tōkyō-to, Chiyoda-ku, Ichibanchō, 14−3</p>
+
         <h3 class="lodge__price">5200&#x20bd;/ночь</h3>
         <h4 class="lodge__type">Квартира</h4>
+
         <p class="lodge__rooms-and-guests">2 комнаты для 3 гостей</p>
+
         <p class="lodge__checkin-time">Заед после 14:00, выезд до 10:00</p>
+
         <div class="lodge__features">
           <span class="feature__image  feature__image--wifi"></span>
           <span class="feature__image  feature__image--dishwasher"></span>
@@ -89,6 +97,7 @@
         </div>
         <p class="lodge__description">Великолепная квартира-студия в центре Токио. Подходит как туристам, так и
           бизнесменам. Квартира полностью укомплектована и имеет свежий ремонт.</p>
+
         <div class="lodge__photos">
           <img src="http://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
           <img src="http://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
@@ -101,6 +110,7 @@
   </section>
   <div class="notice">
     <h2 class="notice__title">Ваше объявление</h2>
+
     <div class="notice__header">
       <div class="notice__description">Ваша фотография (для карты)</div>
       <div class="notice__photo">
@@ -109,7 +119,9 @@
           <input type="file">
           <span class="drop-zone">Загрузите или&nbsp;перетащите сюда фото</span>
         </div>
-        <p class="notice__info">Заполните все обязательные поля, назначьте цену, загрузите фотографии. Придумайте интересное описание. Оно сделает объявление более живым и привлекательным. Получившееся объявление должно давать гостям полное представление о вашем жилье.</p>
+        <p class="notice__info">Заполните все обязательные поля, назначьте цену, загрузите фотографии. Придумайте
+          интересное описание. Оно сделает объявление более живым и привлекательным. Получившееся объявление должно
+          давать гостям полное представление о вашем жилье.</p>
       </div>
     </div>
     <form class="notice__form" autocomplete="off">
@@ -152,7 +164,8 @@
           </div>
           <div class="form__element  form__element--wide">
             <label for="description">Описание (не обязательно)</label>
-            <textarea id="description" placeholder="Здесь расскажите о том, какое ваше жилье замечательное и вообще"></textarea>
+            <textarea id="description"
+                      placeholder="Здесь расскажите о том, какое ваше жилье замечательное и вообще"></textarea>
           </div>
         </div>
         <div class="form__panel">
@@ -209,6 +222,7 @@
           </div>
           <div class="form__element">
             <label>Фотографии жилья</label>
+
             <div class="form__photo-container">
               <div class="drop-zone  upload">
                 <input type="file">
@@ -242,13 +256,21 @@
 <footer class="footer container">
   <div class="center-wrapper">
     <section class="footer-logo">
-      Сделано в <a tabindex="1" href="https://htmlacademy.ru" class="footer-logo-link"><img src="img/ha-logo.png" class="footer-logo-image" width="130" alt="HTML Academy"/>HTML Academy</a> &copy; 2017
+      Сделано в <a tabindex="1" href="https://htmlacademy.ru" class="footer-logo-link"><img src="img/ha-logo.png"
+                                                                                            class="footer-logo-image"
+                                                                                            width="130"
+                                                                                            alt="HTML Academy"/>HTML
+      Academy</a> &copy; 2017
     </section>
     <nav class="footer-social">
-      <a href="https://twitter.com/htmlacademy_ru" class="footer-social-item footer-social-item-twitter" target="_blank" rel="nofollow">Twitter</a>
-      <a href="https://www.instagram.com/htmlacademy/" class="footer-social-item footer-social-item-instagram" target="_blank" rel="nofollow">Instagtam</a>
-      <a href="https://www.facebook.com/htmlacademy" class="footer-social-item footer-social-item-facebook" target="_blank" rel="nofollow">Facebook</a>
-      <a href="https://vk.com/htmlacademy" class="footer-social-item footer-social-item-vk" target="_blank" rel="nofollow">VK</a>
+      <a href="https://twitter.com/htmlacademy_ru" class="footer-social-item footer-social-item-twitter" target="_blank"
+         rel="nofollow">Twitter</a>
+      <a href="https://www.instagram.com/htmlacademy/" class="footer-social-item footer-social-item-instagram"
+         target="_blank" rel="nofollow">Instagtam</a>
+      <a href="https://www.facebook.com/htmlacademy" class="footer-social-item footer-social-item-facebook"
+         target="_blank" rel="nofollow">Facebook</a>
+      <a href="https://vk.com/htmlacademy" class="footer-social-item footer-social-item-vk" target="_blank"
+         rel="nofollow">VK</a>
     </nav>
   </div>
 </footer>
@@ -256,18 +278,25 @@
 <template id="lodge-template">
   <div class="dialog__panel">
     <h3 class="lodge__title"></h3>
+
     <p class="lodge__address"></p>
+
     <h3 class="lodge__price"></h3>
     <h4 class="lodge__type"></h4>
+
     <p class="lodge__rooms-and-guests"></p>
+
     <p class="lodge__checkin-time"></p>
+
     <div class="lodge__features">
     </div>
     <p class="lodge__description"></p>
+
     <div class="lodge__photos">
     </div>
   </div>
 </template>
 
+<script async type="text/javascript" src="js/map.js"></script>
 </body>
 </html>
