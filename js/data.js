@@ -1,4 +1,4 @@
-+'use strict';
+'use strict';
 
 
 // data.js — модуль, который создает данные
